@@ -140,3 +140,7 @@ a.card:hover { border-color: var(--accent); transform: translateY(-2px); }
 @media (max-width: 640px) { .grid.two { grid-template-columns: 1fr; } }
 .grid.three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 @media (max-width: 760px) { .grid.three { grid-template-columns: 1fr; } }
+
+/* Equal height home cards with links aligned at the bottom */
+a.card { display: flex; flex-direction: column; }
+a.card .more { margin-top: auto; padding-top: 12px; }
