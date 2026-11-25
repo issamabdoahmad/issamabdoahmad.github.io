@@ -149,3 +149,4 @@ a.card .more { margin-top: auto; padding-top: 12px; }
 .btn.icon { display: inline-flex; align-items: center; gap: 10px; }
 .btn.icon svg { flex: none; }
 .lead + .lead { margin-top: 16px; }
+.lead.wide { max-width: 860px; }
