@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://issamabdoahmad.github.io/sitemap.xml
+Sitemap: https://issamabdoahmad.com/sitemap.xml
