@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
     targets.forEach(function (el, i) {
       el.classList.add("reveal");
       if (el.parentElement.classList.contains("grid")) {
-        el.style.transitionDelay = Math.min([].indexOf.call(el.parentElement.children, el), 5) * 70 + "ms";
+        el.style.transitionDelay = Math.min([].indexOf.call(el.parentElement.children, el), 5) * 90 + "ms";
       }
       io.observe(el);
     });
